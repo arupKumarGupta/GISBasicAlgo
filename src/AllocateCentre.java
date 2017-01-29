@@ -48,8 +48,11 @@ public class AllocateCentre {
         }*/
         PointF[] filtered = new PointF[SIZE];
         Scanner s = new Scanner(System.in);
+        System.out.print("Latitude:");
         double x = s.nextDouble();
+        System.out.print("Longitude:");
         double y = s.nextDouble();
+        System.out.print("Radius:");
         int radius = s.nextInt();
         radius *= 1000;
         int pos = 6;
